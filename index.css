@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+input,
+button {
+  padding: 14px;
+  margin: 5px 0;
+  border: none;
+  outline: none;
+}
+input {
+  border: 1px solid #ddd;
+  width: 100%;
+}
+button {
+  background: aquamarine;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  width: 100%;
+}
+p {
+  background: rgba(183, 0, 255, 0.459);
+  width: 100%;
+}
