@@ -28,13 +28,11 @@ button.addEventListener("click", function (e) {
   } else if (inputParse < 33) {
     result.textContent =
       "দুঃখিত আপনি অকৃতকার্য হয়েছেন পরের বার আবার চেষ্টা করেন!!";
-  } else if (input.value === " ") {
+  } else {
     result.textContent = "দয়া করে আপনার নাম্বার দিন";
     setInterval(function () {
-      result.textContent = "";
+      result.textContent = " ";
     }, 3000);
-  } else {
-    alert("a;dsklfjasdlf");
   }
   input.value = "";
 });
